@@ -43,4 +43,4 @@ That's it.
 
 [Vagrant]: http://vagrantup.com
 [VirtualBox]: https://www.virtualbox.org
-[blog]: http://mlafeldt.github.com/blog/2012/06/building-a-vagrant-box-for-ps2-development/
+[blog]: http://mlafeldt.github.com/blog/2012/08/system-provisioning-with-vagrant/
