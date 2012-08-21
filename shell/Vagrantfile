@@ -1,3 +1,5 @@
+# vi: set ft=ruby :
+
 Vagrant::Config.run do |config|
   # Ubuntu 10.04, 64 bit
   config.vm.box = "lucid64"
