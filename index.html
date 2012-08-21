@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="ps2dev-box : A Virtual Machine for PS2 Development" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>ps2dev-box</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mlafeldt/ps2dev-box">View on GitHub</a>
+
+          <h1 id="project_title">ps2dev-box</h1>
+          <h2 id="project_tagline">A Virtual Machine for PS2 Development</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mlafeldt/ps2dev-box/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mlafeldt/ps2dev-box/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>A Virtual Machine for PS2 Development</h1>
+
+<p>For the motivation, you may want to read <a href="http://mlafeldt.github.com/blog/2012/08/system-provisioning-with-vagrant/">this blog post.</a></p>
+
+<h2>Requirements</h2>
+
+<ul>
+<li>The virtual machine runs on top of <a href="https://www.virtualbox.org">VirtualBox</a>.</li>
+<li>
+<a href="http://vagrantup.com">Vagrant</a> is used to build and provision the virtual machine.</li>
+</ul><h2>How to build the VM</h2>
+
+<p>First, clone the repo:</p>
+
+<pre><code>$ git clone git://github.com/mlafeldt/ps2dev-box.git
+$ cd ps2dev-box/
+</code></pre>
+
+<p>Now you have two options to provision the box. Both will give you the same
+result.</p>
+
+<p>a) Provision with Shell:</p>
+
+<pre><code>$ cd shell/
+$ vagrant up
+</code></pre>
+
+<p>b) Provision with Chef Solo:</p>
+
+<pre><code>$ cd chef-solo/
+$ vagrant up
+</code></pre>
+
+<p>That's it.</p>
+
+<h2>Contact</h2>
+
+<ul>
+<li>Web: <a href="https://github.com/mlafeldt/ps2dev-box">https://github.com/mlafeldt/ps2dev-box</a>
+</li>
+<li>Mail: <a href="mailto:mathias.lafeldt@gmail.com">mathias.lafeldt@gmail.com</a>
+</li>
+<li>Twitter: <a href="https://twitter.com/mlafeldt">@mlafeldt</a>
+</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">ps2dev-box maintained by <a href="https://github.com/mlafeldt">mlafeldt</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
