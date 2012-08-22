@@ -1,0 +1,3 @@
+[submodule "cookbooks/minitest-handler"]
+	path = cookbooks/minitest-handler
+	url = git://github.com/btm/minitest-handler-cookbook.git
