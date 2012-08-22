@@ -43,28 +43,15 @@
 <a href="http://vagrantup.com">Vagrant</a> is used to build and provision the virtual machine.</li>
 </ul><h2>How to build the VM</h2>
 
-<p>First, clone the repo:</p>
-
 <pre><code>$ git clone git://github.com/mlafeldt/ps2dev-box.git
 $ cd ps2dev-box/
-</code></pre>
-
-<p>Now you have two options to provision the box. Both will give you the same
-result.</p>
-
-<p>a) Provision with Shell:</p>
-
-<pre><code>$ cd shell/
-$ vagrant up
-</code></pre>
-
-<p>b) Provision with Chef Solo:</p>
-
-<pre><code>$ cd chef-solo/
 $ vagrant up
 </code></pre>
 
 <p>That's it.</p>
+
+<p>(You can edit the <code>Vagrantfile</code> to let Vagrant provision a different VM or to use
+the Shell provisioner instead of Chef Solo.)</p>
 
 <h2>Contact</h2>
 
