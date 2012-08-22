@@ -13,25 +13,14 @@ Requirements
 
 ## How to build the VM
 
-First, clone the repo:
-
     $ git clone git://github.com/mlafeldt/ps2dev-box.git
     $ cd ps2dev-box/
-
-Now you have two options to provision the box. Both will give you the same
-result.
-
-a) Provision with Shell:
-
-    $ cd shell/
-    $ vagrant up
-
-b) Provision with Chef Solo:
-
-    $ cd chef-solo/
     $ vagrant up
 
 That's it.
+
+(You can edit the `Vagrantfile` to let Vagrant provision a different VM or to use
+the Shell provisioner instead of Chef Solo.)
 
 
 ## Contact
