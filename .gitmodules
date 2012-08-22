@@ -1,0 +1,6 @@
+[submodule "cookbooks/minitest-handler"]
+	path = cookbooks/minitest-handler
+	url = git://github.com/btm/minitest-handler-cookbook.git
+[submodule "cookbooks/chef_gem"]
+	path = cookbooks/chef_gem
+	url = git://github.com/heavywater/chef-chef_gem.git
