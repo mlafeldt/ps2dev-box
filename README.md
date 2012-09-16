@@ -1,7 +1,10 @@
 A Virtual Machine for PS2 Development
 =====================================
 
-For the motivation, you may want to read [this blog post.][blog]
+To give you a little bit of background, you may want to read these blog posts:
+
+- [Building a Vagrant Box for PS2 Development][blog-1]
+- [System Provisioning with Vagrant][blog-2]
 
 
 Requirements
@@ -32,4 +35,5 @@ the Shell provisioner instead of Chef Solo.)
 
 [Vagrant]: http://vagrantup.com
 [VirtualBox]: https://www.virtualbox.org
-[blog]: http://mlafeldt.github.com/blog/2012/08/system-provisioning-with-vagrant/
+[blog-1]: http://mlafeldt.github.com/blog/2012/06/building-a-vagrant-box-for-ps2-development/
+[blog-2]: http://mlafeldt.github.com/blog/2012/08/system-provisioning-with-vagrant/
