@@ -13,7 +13,7 @@ Requirements
 
 ## How to build the VM
 
-    $ git clone git://github.com/mlafeldt/ps2dev-box.git
+    $ git clone --recursive git://github.com/mlafeldt/ps2dev-box.git
     $ cd ps2dev-box/
     $ vagrant up
 
