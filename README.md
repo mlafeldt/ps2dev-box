@@ -28,7 +28,7 @@ the Shell provisioner instead of Chef Solo.)
 
 ## Contact
 
-* Web: <https://github.com/mlafeldt/ps2dev-box>
+* Web: <http://mlafeldt.github.com/ps2dev-box>
 * Mail: <mathias.lafeldt@gmail.com>
 * Twitter: [@mlafeldt](https://twitter.com/mlafeldt)
 
