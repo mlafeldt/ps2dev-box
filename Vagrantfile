@@ -15,6 +15,7 @@ Vagrant::Config.run do |config|
   # Chef Solo provisioner
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = "cookbooks"
+    chef.add_recipe "apt"
     chef.add_recipe "ps2dev"
     # chef.log_level = :debug
   end
