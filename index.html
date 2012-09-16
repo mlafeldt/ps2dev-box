@@ -33,9 +33,12 @@
       <section id="main_content" class="inner">
         <h1>A Virtual Machine for PS2 Development</h1>
 
-<p>For the motivation, you may want to read <a href="http://mlafeldt.github.com/blog/2012/08/system-provisioning-with-vagrant/">this blog post.</a></p>
+<p>To give you a little bit of background, you may want to read these blog posts:</p>
 
-<h2>Requirements</h2>
+<ul>
+<li><a href="http://mlafeldt.github.com/blog/2012/06/building-a-vagrant-box-for-ps2-development/">Building a Vagrant Box for PS2 Development</a></li>
+<li><a href="http://mlafeldt.github.com/blog/2012/08/system-provisioning-with-vagrant/">System Provisioning with Vagrant</a></li>
+</ul><h2>Requirements</h2>
 
 <ul>
 <li>The virtual machine runs on top of <a href="https://www.virtualbox.org">VirtualBox</a>.</li>
@@ -43,7 +46,7 @@
 <a href="http://vagrantup.com">Vagrant</a> is used to build and provision the virtual machine.</li>
 </ul><h2>How to build the VM</h2>
 
-<pre><code>$ git clone git://github.com/mlafeldt/ps2dev-box.git
+<pre><code>$ git clone --recursive git://github.com/mlafeldt/ps2dev-box.git
 $ cd ps2dev-box/
 $ vagrant up
 </code></pre>
@@ -56,7 +59,7 @@ the Shell provisioner instead of Chef Solo.)</p>
 <h2>Contact</h2>
 
 <ul>
-<li>Web: <a href="https://github.com/mlafeldt/ps2dev-box">https://github.com/mlafeldt/ps2dev-box</a>
+<li>Web: <a href="http://mlafeldt.github.com/ps2dev-box">http://mlafeldt.github.com/ps2dev-box</a>
 </li>
 <li>Mail: <a href="mailto:mathias.lafeldt@gmail.com">mathias.lafeldt@gmail.com</a>
 </li>
