@@ -1,3 +1,3 @@
 source :rubygems
 
-gem "chefspec", "~>0.6"
+gem "chefspec", "~>0.8"
