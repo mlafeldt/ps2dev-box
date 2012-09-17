@@ -7,3 +7,6 @@
 [submodule "cookbooks/git"]
 	path = cookbooks/git
 	url = git://github.com/opscode-cookbooks/git.git
+[submodule "cookbooks/ps2dev"]
+	path = cookbooks/ps2dev
+	url = git://github.com/mlafeldt/ps2dev-cookbook.git
