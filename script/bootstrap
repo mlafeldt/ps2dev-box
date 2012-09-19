@@ -4,6 +4,9 @@ set -e
 
 echo "Setting up your environment..."
 
+echo "  + Setting up Git submodules."
+git submodule update --init
+
 if command -v bundle >/dev/null; then
     echo "  + Bundler found."
 else
