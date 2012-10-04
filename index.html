@@ -44,10 +44,13 @@
 <li>The virtual machine runs on top of <a href="https://www.virtualbox.org">VirtualBox</a>.</li>
 <li>
 <a href="http://vagrantup.com">Vagrant</a> is used to build and provision the virtual machine.</li>
+<li>
+<a href="https://github.com/applicationsonline/librarian">Librarian-Chef</a> is used to install Chef cookbooks.</li>
 </ul><h2>How to build the VM</h2>
 
-<pre><code>$ git clone --recursive git://github.com/mlafeldt/ps2dev-box.git
+<pre><code>$ git clone git://github.com/mlafeldt/ps2dev-box.git
 $ cd ps2dev-box/
+$ ./script/bootstrap
 $ vagrant up
 </code></pre>
 
