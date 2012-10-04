@@ -3,9 +3,9 @@
 /bin/
 /vendor/gems/
 
-# Librarian
-/cookbooks
-/tmp
+# Librarian-Chef
+/cookbooks/
+/tmp/
 
 # Vagrant
 .vagrant
