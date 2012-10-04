@@ -1,0 +1,26 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (1.4.8)
+    build-essential (1.1.2)
+    dmg (1.0.0)
+    git (1.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+    runit (0.15.0)
+    yum (0.8.2)
+
+GIT
+  remote: git://github.com/mlafeldt/ps2dev-cookbook.git
+  ref: 1.0.1
+  sha: b050591b3e7f1b6c650d39fb3b534e92c62eca2d
+  specs:
+    ps2dev (1.0.1)
+      build-essential (>= 0.0.0)
+      git (= 1.0.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  ps2dev (>= 0)
+
