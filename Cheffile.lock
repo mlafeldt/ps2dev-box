@@ -9,14 +9,14 @@ SITE
       runit (>= 0.0.0)
       yum (>= 0.0.0)
     runit (0.15.0)
-    yum (0.8.2)
+    yum (1.0.0)
 
 GIT
   remote: git://github.com/mlafeldt/ps2dev-cookbook.git
-  ref: 1.0.1
-  sha: b050591b3e7f1b6c650d39fb3b534e92c62eca2d
+  ref: 1.0.2
+  sha: 6034d9454959e6f51d709c4653a51d6a048df28a
   specs:
-    ps2dev (1.0.1)
+    ps2dev (1.0.2)
       build-essential (>= 0.0.0)
       git (= 1.0.0)
 

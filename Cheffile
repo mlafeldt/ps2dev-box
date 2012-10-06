@@ -1,4 +1,4 @@
 site "http://community.opscode.com/api/v1"
 
 cookbook "apt"
-cookbook "ps2dev", :git => "git://github.com/mlafeldt/ps2dev-cookbook.git", :ref => "1.0.1"
+cookbook "ps2dev", :git => "git://github.com/mlafeldt/ps2dev-cookbook.git", :ref => "1.0.2"
