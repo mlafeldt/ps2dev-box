@@ -13,10 +13,10 @@ SITE
 
 GIT
   remote: git://github.com/mlafeldt/ps2dev-cookbook.git
-  ref: 1.0.2
-  sha: 6034d9454959e6f51d709c4653a51d6a048df28a
+  ref: 1.0.3
+  sha: bed20de2ff7f3863eb81ebda7240416c5b6b0120
   specs:
-    ps2dev (1.0.2)
+    ps2dev (1.0.3)
       build-essential (>= 0.0.0)
       git (= 1.0.0)
 
