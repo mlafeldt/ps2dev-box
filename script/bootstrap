@@ -12,10 +12,10 @@ else
     exit 1
 fi
 
-echo "  + Bootstrapping your gems."
-bundle install --binstubs --quiet
+echo "  + Bootstrapping your gems..."
+bundle install --binstubs $BUNDLER_OPTS
 
-echo "  + Bootstrapping your cookbooks."
+echo "  + Bootstrapping your cookbooks..."
 bundle exec librarian-chef install
 
 echo "Done!"
