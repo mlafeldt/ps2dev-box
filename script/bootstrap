@@ -16,6 +16,6 @@ echo "  + Bootstrapping your gems..."
 bundle install --binstubs $BUNDLER_OPTS
 
 echo "  + Bootstrapping your cookbooks..."
-bundle exec librarian-chef install
+bin/librarian-chef install $LIBRARIAN_OPTS
 
 echo "Done!"
