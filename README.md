@@ -10,6 +10,7 @@ To give you a little bit of background, you may want to read these blog posts:
 
 - The virtual machine runs on top of [VirtualBox].
 - [Vagrant] is used to build and provision the virtual machine.
+- [vagrant-omnibus] is required to install Chef inside the VM.
 - [Berkshelf] is used to install Chef cookbooks.
 
 ## How to build the VM
@@ -37,3 +38,4 @@ use the Shell provisioner instead of Chef Solo.)
 [VirtualBox]: https://www.virtualbox.org/
 [blog-1]: http://mlafeldt.github.com/blog/2012/06/building-a-vagrant-box-for-ps2-development/
 [blog-2]: http://mlafeldt.github.com/blog/2012/08/system-provisioning-with-vagrant/
+[vagrant-omnibus]: https://github.com/schisamo/vagrant-omnibus
