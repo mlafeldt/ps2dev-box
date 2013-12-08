@@ -31,35 +31,42 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h1>A Virtual Machine for PS2 Development</h1>
+        <h1>
+<a name="a-virtual-machine-for-ps2-development" class="anchor" href="#a-virtual-machine-for-ps2-development"><span class="octicon octicon-link"></span></a>A Virtual Machine for PS2 Development</h1>
 
 <p>To give you a little bit of background, you may want to read these blog posts:</p>
 
 <ul>
 <li><a href="http://mlafeldt.github.com/blog/2012/06/building-a-vagrant-box-for-ps2-development/">Building a Vagrant Box for PS2 Development</a></li>
 <li><a href="http://mlafeldt.github.com/blog/2012/08/system-provisioning-with-vagrant/">System Provisioning with Vagrant</a></li>
-</ul><h2>Requirements</h2>
+</ul><h2>
+<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h2>
 
 <ul>
-<li>The virtual machine runs on top of <a href="https://www.virtualbox.org">VirtualBox</a>.</li>
+<li>The virtual machine runs on top of <a href="https://www.virtualbox.org/">VirtualBox</a>.</li>
 <li>
-<a href="http://vagrantup.com">Vagrant</a> is used to build and provision the virtual machine.</li>
+<a href="http://vagrantup.com/">Vagrant</a> is used to build and provision the virtual machine.</li>
 <li>
-<a href="https://github.com/applicationsonline/librarian">Librarian-Chef</a> is used to install Chef cookbooks.</li>
-</ul><h2>How to build the VM</h2>
+<a href="https://github.com/schisamo/vagrant-omnibus">vagrant-omnibus</a> is required to install Chef inside the VM.</li>
+<li>
+<a href="http://berkshelf.com/">Berkshelf</a> is used to install Chef cookbooks.</li>
+</ul><h2>
+<a name="how-to-build-the-vm" class="anchor" href="#how-to-build-the-vm"><span class="octicon octicon-link"></span></a>How to build the VM</h2>
 
 <pre><code>$ git clone git://github.com/mlafeldt/ps2dev-box.git
 $ cd ps2dev-box/
-$ ./script/bootstrap
-$ vagrant up
+$ bundle install
+$ bundle exec berks install --path vendor/cookbooks
+$ vagrant up --provision
 </code></pre>
 
 <p>That's it.</p>
 
-<p>(You can edit the <code>Vagrantfile</code> to let Vagrant provision a different VM or to use
-the Shell provisioner instead of Chef Solo.)</p>
+<p>(You can edit the <code>Vagrantfile</code> to let Vagrant provision a different VM or to
+use the Shell provisioner instead of Chef Solo.)</p>
 
-<h2>Contact</h2>
+<h2>
+<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h2>
 
 <ul>
 <li>Web: <a href="http://mlafeldt.github.com/ps2dev-box">http://mlafeldt.github.com/ps2dev-box</a>
